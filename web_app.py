@@ -9,9 +9,6 @@ if check_on:
 name = st.text_input("Enter your name:")
 if name:
     st.write(f"Hello {name}!")
-iris_data.csv)
-
-import pandas as pd
 
 import pandas as pd
 data = pd.read_csv('iris_data.csv')
