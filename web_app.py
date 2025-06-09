@@ -14,7 +14,7 @@ iris_data.csv)
 import pandas as pd
 
 import pandas as pd
-data = pd.read_csv("iris_data.csv")
+data = pd.read_csv('iris_data.csv')
 
 import plotly.express as px
 fig = px.scatter(data, x="SepalLengthCm", y="SepalWidthCm", color="Species")
