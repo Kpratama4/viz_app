@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(
-    page_title = 'Iris'
+    page_title = 'Iris',
     layout = 'wide'
 )
 st.title("Hello World!")
